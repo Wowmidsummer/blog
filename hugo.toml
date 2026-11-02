@@ -1,0 +1,47 @@
+baseURL = 'https://GITHUB_USERNAME.github.io/blog/'
+locale = 'zh-cn'
+title = '我的博客'
+theme = 'papermod'
+
+# 分页
+paginate = 10
+
+# 语法高亮
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+# 导航菜单
+[menu]
+  [[menu.main]]
+    identifier = 'archives'
+    name = '归档'
+    url = '/archives/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'search'
+    name = '搜索'
+    url = '/search/'
+    weight = 20
+
+[params]
+  # 首页显示
+  [params.homeInfoParams]
+    Title = '你好 👋'
+    Content = '欢迎来到我的博客'
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  # 评论区(先留空,以后可以接入 Giscus 等)
+  comments = false
+  # 社交媒体链接(示例,可自行增删)
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/GITHUB_USERNAME'
+
+# 输出配置
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
