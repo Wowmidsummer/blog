@@ -1,4 +1,4 @@
-baseURL = 'https://GITHUB_USERNAME.github.io/blog/'
+baseURL = 'https://wowmidsummer.github.io/blog/'
 locale = 'zh-cn'
 title = '我的博客'
 theme = 'papermod'
@@ -40,7 +40,7 @@ paginate = 10
   # 社交媒体链接(示例,可自行增删)
   [[params.socialIcons]]
     name = 'github'
-    url = 'https://github.com/GITHUB_USERNAME'
+    url = 'https://github.com/Wowmidsummer'
 
 # 输出配置
 [outputs]
